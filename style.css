@@ -126,13 +126,14 @@ main {
 }
 
 .intro p {
-    max-width: 620px;
+    max-width: 700px;
 
     margin: 0 auto;
 
-    font-size: 17px;
+    font-size: 19px;
+    font-weight: 400;
 
-    color: #66594d;
+    color: #29211c;
 }
 
 
@@ -146,26 +147,27 @@ main {
 }
 
 h2 {
-    margin: 0 0 15px;
+    margin: 0 0 18px;
 
     font-family: "Bookman Old Style", Georgia, serif;
 
-    font-size: 27px;
+    font-size: 30px;
 
-    font-weight: normal;
+    font-weight: bold;
 
-    color: #3b2d23;
+    color: #211b17;
 }
 
 .articles-section p,
 .about-section p {
-    max-width: 650px;
+    max-width: 700px;
 
     margin-bottom: 22px;
 
-    font-size: 15px;
+    font-size: 17px;
+    font-weight: 400;
 
-    color: #66594d;
+    color: #29211c;
 }
 
 
@@ -199,9 +201,9 @@ footer {
 
     font-family: Arial, sans-serif;
 
-    font-size: 12px;
+    font-size: 13px;
 
-    color: #817365;
+    color: #55483e;
 }
 
 
