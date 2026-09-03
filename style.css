@@ -45,7 +45,7 @@ header {
 
     letter-spacing: 4px;
 
-    color: #3d3026;
+    color: #9b2c2c;
 }
 
 
@@ -75,7 +75,8 @@ nav a {
 
     font-family: Arial, sans-serif;
 
-    font-size: 14px;
+    font-size: 17px;
+    font-weight: bold;
 
     text-decoration: none;
 
