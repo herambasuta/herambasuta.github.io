@@ -19,33 +19,7 @@
 
     <!-- HEADER -->
 
-    <header>
-
-        <div class="site-name">
-            HERAMBASUTA
-        </div>
-
-    <div class="tagline">
-
-    <div class="sanskrit">
-        स न॑: पि॒तेव॑ सू॒नवेऽग्ने॑ सूपाय॒नो भ॑व । सच॑स्वा नः स्व॒स्तये॑ ॥
-    </div>
-
-    <div class="translation">
-        Agni, be to us easy of access, as is a father to his son;
-        be ever present with us for our good.
-    </div>
-
-</div>
-
-        <nav>
-    <a href="index.html">Home</a>
-    <a href="articles.html">Articles</a>
-    <a href="downloads.html">Downloads</a>
-    <a href="about.html">About</a>
-</nav>
-
-    </header>
+    <div id="site-header"></div>
 
 
     <!-- MAIN CONTENT -->
@@ -113,7 +87,13 @@
 
     </footer>
 
-
+<script>
+fetch("header.html")
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById("site-header").innerHTML = data;
+    });
+</script>
 </body>
 
 </html>
